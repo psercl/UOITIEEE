@@ -1,8 +1,8 @@
 name: IEEE Student Branch at UOIT
 description: IEEE Student Branch at UOIT
-baseurl: '/Alpha-Jekyll-Theme'
+baseurl: '/IEEE'
 
 url: "http://localhost:4000"
-
+permalink: /:title/
 paginate: 10
 

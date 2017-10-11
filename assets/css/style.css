@@ -191,10 +191,19 @@
 		line-height: 1.5em;
 	}
 
+
+
 	header.major {
-		padding: 1em 0;
 		text-align: center;
 	}
+		header.major .justify {
+			padding: 1em 5em;
+			text-align: justify;
+		}
+		header.major .banner {
+		width: 100%;
+		
+		}
 
 		header.major h2 {
 			margin: 0;
@@ -1009,6 +1018,16 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
+		}
+
+		#header .logo {
+			position: relative;
+			padding: 10px;
+			height: 5.0em;
+			line-height: 5.25em;
+			background: white;
+			border: 1px solid #ecf0f1;
+			border-bottom-right-radius: 5px;
 		}
 
 			#header h1 a {
