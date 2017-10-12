@@ -1,0 +1,22 @@
+---
+title: Style Test
+layout: post
+---
+
+<h1>Data</h1>
+<pre>
+{% for event in site.data.featured %}
+	{% assign evid = '/' | append: event.name %}
+	{% assign post = site.posts | where:"id",evid %}
+	{{ post[0].image }}
+	{{ post[0].url }}
+{% endfor %}
+</pre>
+
+<h1>Post</h1>
+<pre>
+{{ site.posts[1].id }}
+{{ site.posts[1].title }}
+
+{{ site.posts[1].excerpt }}
+</pre>

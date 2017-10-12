@@ -1,0 +1,7 @@
+- name: hello-word
+  title: World
+  url: https://google.ca
+
+- name: ieeextreme11
+  title: A new and novel title
+  excerpt: This is an event for fun, for profit, and for the sake of the human race.

@@ -24,27 +24,38 @@ layout: default
 </section>
 
 <div class="row">
+{% for event in site.data.featured %}
+	{% assign evid = '/' | append: event.name %}
+	{% assign post = site.posts | where:"id",evid %}
+	{% if event.title %}
+		{% assign title = event.title %}
+	{% else %}
+		{% assign title = post[0].title %}
+	{% endif %}
+	{% if event.excerpt %}
+		{% assign excerpt = event.excerpt %}
+	{% else %}
+		{% assign excerpt = post[0].excerpt %}
+	{% endif %}
+	{% if event.image %}
+		{% assign image = event.image %}
+	{% else %}
+		{% assign image = post[0].image %}
+	{% endif %}
+	{% if event.url %}
+		{% assign url = event.url %}
+	{% else %}
+		{% assign url = site.baseurl | append: post[0].url %}
+	{% endif %}
 	<div class="6u">
 		<section class="box special">
-			<span class="image featured"><img src="{{ site.baseurl }}/assets/images/pic02.jpg" alt="" /></span>
-			<h3>Sed lorem adipiscing</h3>
-			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+			<span class="image featured"><img src="{{ site.baseurl }}/assets/images/{{ image }}" alt="" /></span>
+			<h3>{{ title }}</h3>
+			{{ excerpt }}
 			<ul class="actions">
-				<li><a href="#" class="button alt">Learn More</a></li>
+				<li><a href="{{ url }}" class="button alt">Learn More</a></li>
 			</ul>
 		</section>
-
 	</div>
-	<div class="6u">
-
-		<section class="box special">
-			<span class="image featured"><img src="{{ site.baseurl }}/assets/images/pic03.jpg" alt="" /></span>
-			<h3>Accumsan integer</h3>
-			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-			<ul class="actions">
-				<li><a href="#" class="button alt">Learn More</a></li>
-			</ul>
-		</section>
-
-	</div>
+{% endfor %}
 </div>
