@@ -12,12 +12,11 @@ permalink: /centre/index.html
 	<section class="box special features">
 		<div class="info">
 			<p>The McNaughton Learning Resource Centre is IEEE UOIT’s club space, located on the 5th floor of ACE.</p>
-			<p>The Centre has been in development since 2013, and finally, with help of our donors, UOIT, and dedicated team members, it will finally be offered as a fully functional lab space.</p>
-			<p>The McNaughton Centre’s primary function is to provide students with access to resources such as tools, components, reading material, and peer support.</p>
-			<p><a href="/#">Paid IEEE members</a> will receive full access to the Centre.</p>
+			<p>The Centre has been in development since 2013, and finally, with help of our donors, UOIT, and dedicated team members, it will finally be offered as a fully functional lab space. The McNaughton Centre’s primary function is to provide students with access to resources such as tools, components, reading material, and peer support.</p>
+			<p><a href="{{ site.baseurl }}/hello/#member">Paid IEEE Student Members</a> will receive full access to the Centre.</p>
 		</div>
 	</section>
-
+	<a name="schedule"><h3>Schedule</h3></a>
 	<section class="box special">
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.0/moment.min.js"></script>
@@ -27,12 +26,9 @@ permalink: /centre/index.html
 		<script>
 		$(document).ready(function() {
 		    $('#calendar').fullCalendar({
-		    	header: {
-				left: 'prev,next today',
-				center: 'title',
-				right: 'month,agendaWeek,agendaDay,listWeek'
-				},
-		        events:'{{ site.baseurl }}/centre/data.json'
+				defaultView: 'agendaWeek',
+		        events:'{{ site.baseurl }}/centre/data.json',
+		        editable: false
 		    })
 		});
 		</script>
