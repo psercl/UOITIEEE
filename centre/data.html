@@ -1,0 +1,20 @@
+---
+layout:
+title:
+permalink: /centre/data.json
+---
+[
+{% for event in site.data.events %}
+    {
+        {% if event.name %}"title":"{{event.name}}",{% endif %}
+        {% if event.start %}"start": "{{event.start}}",{% endif %}
+        {% if event.end %}"end": "{{event.end}}",{% endif %}
+        {% if event.url %}"url":"{{event.url}}",{% endif %}
+        {% if event.color %}"color":"{{event.color}}",{% endif %}
+        {% if event.textColor %}"textColor":"{{event.textColor}}",{% endif %}
+        "null":"null"
+        
+    }
+    {%unless forloop.last %},{%endunless%}
+{% endfor %}
+]

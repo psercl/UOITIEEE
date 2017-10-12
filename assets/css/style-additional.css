@@ -1,0 +1,15 @@
+/*
+Add all additional styling here
+*/
+
+.info {
+	text-align: left;
+	font-size: 16px;
+}
+
+.centre section {
+	padding: 3em;
+	width: 100%;
+	float: none;
+	border-top: solid 2px #e5e5e5;
+}
