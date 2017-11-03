@@ -497,12 +497,22 @@
 			text-align: center;
 		}
 
+		.box.people .icon.major {
+			margin: 0;
+		}
+
+
+
 		.box .image.featured {
 			border-radius: 0;
 			display: block;
 			margin: 3em 0 3em -3em;
 			position: relative;
 			width: calc(100% + 6em);
+		}
+
+		.box .image.post {
+			height: 16em;
 		}
 
 			.box .image.featured img {
@@ -1329,8 +1339,9 @@
 				margin: 1em 0 0 0;
 				padding: 1em 0 1.25em 0;
 			}
+
 	body #main {
-		margin-top: -30em;
+		margin-top: -22em;
 	}
 
 	body.landing #main {
