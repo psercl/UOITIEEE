@@ -26,9 +26,14 @@ permalink: /centre/index.html
 		<script>
 		$(document).ready(function() {
 		    $('#calendar').fullCalendar({
+		    	
 				defaultView: 'agendaWeek',
 		        events:'{{ site.baseurl }}/centre/data.json',
-		        editable: false
+		        editable: false,
+		        header: false,
+		        minTime: '07:30:00', // Start time for the calendar
+				maxTime: '22:00:00', // End time for the calendar
+				displayEventTime: true, // Display event time
 		    })
 		});
 		</script>

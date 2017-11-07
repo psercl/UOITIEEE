@@ -1,0 +1,18 @@
+- name: Sameer Awan
+  position: President
+  desc: Blah blah blah
+
+- name: Anthony DeSouza
+  position: Vice President
+  desc: more blah
+
+- name: Joe Blow
+  position: Treasurer
+  desc: >-
+    Hello, I'm the guy that takes care of keeping the jazz in your life. 
+    Stay classy, Atlanta!
+
+- name: Jimmy Johnson
+  position: Marketing
+  desc: >-
+    I've got Photoshop, I know HTML, and I can get you to BUY a PRODUCT.

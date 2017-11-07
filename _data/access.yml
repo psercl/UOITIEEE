@@ -1,12 +1,5 @@
-- name: Anthony's Birthday
-  start: 2017-10-25
-  url: /birthday/
-
-- name: Parker Moore (12:30pm-4pm)
-  start: '2017-10-14T10:40:00'
-  end: 2017-10-18
-
-- name: Liu Fengyun
-  start: 2017-11-02
+- name: Open Build
+  start: '2017-11-08T10:00:00'
+  end: '2017-11-08T14:00:00'
   color: 'yellow'
   textColor: 'red'
