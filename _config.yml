@@ -1,6 +1,6 @@
 name: IEEE Student Branch at UOIT
 description: IEEE Student Branch at UOIT
-baseurl: '/IEEE'
+baseurl: '/UOITIEEE'
 
 # url: "http://localhost:4000"
 permalink: /:title/
