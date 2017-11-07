@@ -2,7 +2,7 @@ name: IEEE Student Branch at UOIT
 description: IEEE Student Branch at UOIT
 baseurl: '/IEEE'
 
-url: "http://localhost:4000"
+# url: "http://localhost:4000"
 permalink: /:title/
 plugins: [jekyll-paginate]
 paginate: 2
