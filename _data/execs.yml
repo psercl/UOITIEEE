@@ -1,13 +1,68 @@
 - name: Sameer Awan
   position: President
   desc: >-
-    Blah blah blah
+    I am a third year Electrical Engineering student 
+    with a passion for the application of engineering 
+    to entrepreneurial endeavours. The IEEE Student Branch 
+    at UOIT provides a myriad of opportunities to those
+    studying in STEM fields, as it provides excellent 
+    opportunities to gain practical skills, network with 
+    peers and industry professionals as well as gain exposure
+    to industry. I am humbled to be this year’s Chair, and I 
+    look forward to another successful year for our IEEE Student 
+    Branch.
 
 - name: Anthony DeSouza
-  position: Vice President
+  position: VP Internal
   desc: >-
-    Description
-    Multi-line
-    Here
-    Do it like this
-    Please fix
+    I’m a third year Software Engineering student 
+    and a part of the IEEE Student Branch at UOIT 
+    since 2015. I have an interest in machine learning, 
+    data science, and the application of technology to 
+    improve life.	
+
+- name: Toby Ma
+  position: VP Events
+  desc: >-
+    I’m a third year Electrical Engineering student and I will 
+    be organizing which events to have during the year alongside 
+    many of the directors. My goal for our student branch is to 
+    promote IEEE through events, increase our activity in engineering 
+    outreach and continue our success at the university. 
+
+- name: Kaushal Patel
+  position: Treasurer
+  desc: >-
+    I’m a third year Software Engineering student 
+    and a part of the IEEE Student Branch at UOIT 
+    since 2015. I have an interest in machine learning, 
+    data science, and the application of technology to 
+    improve life.	
+
+- name: Peter Sercl
+  position: Director
+  desc: >-
+    I am a second year Electrical Engineering student with a 
+    passion for robotics and DIY electronics. I am responsible 
+    for managing the McNaughton Resource Centre, helping provide
+    students the opportunity to learn about applications of 
+    Electrical Engineering outside the classroom. In university 
+    labs, it is often difficult to find tinkering time or space
+    where you can work on your own projects. The McNaughton
+    centre gives students a more laid back, learn at your own 
+    pace environment. You can often find me soldering, hacking 
+    around with an Arduino board, or taking something apart and 
+    modifying it, attempting to improve upon it. It is a great 
+    honor to be working with this year’s executive team, and I 
+    look forward to the bright future of the IEEE Student Branch 
+    at UOIT. 
+
+- name: Jeremy Francis
+  position: Director
+  desc: >-
+    Hello! I am a third year Mechatronics Engineering student 
+    with passions ranging from engineering to music to 
+    entrepreneurship. I will be working in tandem with VP Events
+     to bring you all high quality and informative events for your 
+     benefit. I am truly honoured to be an executive member of the
+      IEEE Student branch of UOIT for the 2017-2018 academic year.
