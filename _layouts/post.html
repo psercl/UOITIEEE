@@ -3,6 +3,8 @@
 		<h3>{{ page.title }}</h3>
 		<span class="date">{{ page.date | date_to_string }}</span>
 		{% if page.image %}<img class="image featured" src="{{ site.baseurl }}/assets/images/{{ page.image }}">{% endif %}
+	</section>
+	<section class="box">
 		{{ page.content }}
 	</section>
 {% include footer.html %}
