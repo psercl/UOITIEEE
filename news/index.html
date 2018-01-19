@@ -15,7 +15,7 @@ layout: default
 				<img class="image post" src="{{ site.baseurl }}/assets/images/{{ post.image }}">
 			</div>
 			{% endif %}
-				{{ post.content | remove: '<p>' | remove: '</p>' }}
+				{{ post.excerpt }}
 			<ul class="actions">
 				<li><a href="{{ site.baseurl }}{{ post.url }}" class="button alt">Read Article</a></li>
 			</ul>
