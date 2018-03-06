@@ -2,8 +2,9 @@ name: IEEE Student Branch at UOIT
 description: IEEE Student Branch at UOIT
 baseurl: '/'
 
-# url: "http://uoitieee.ca"
+url: "http://uoitieee.ca"
 permalink: /:title/
+gems: [jekyll-paginate]
 plugins_dir: [jekyll-paginate]
 paginate: 2
 paginate_path: "news/page:num"
