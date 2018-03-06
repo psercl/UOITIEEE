@@ -4,7 +4,7 @@ baseurl: '/'
 
 # url: "http://uoitieee.ca"
 permalink: /:title/
-plugins: [jekyll-paginate]
+plugins_dir: [jekyll-paginate]
 paginate: 2
 paginate_path: "news/page:num"
 
