@@ -12,4 +12,8 @@ The event is open to all engineering students and will be run in the Engineering
 Monday March 26th, 2018. There will be no charge for the workshop!
 <p>Please use this powerpoint to check out the content: <a target="_blank" href="https://docs.google.com/presentation/d/1WE9XH9dcJm1JzWKUklYiIZcPW3towbiokCMYWeOtBdM/edit?usp=sharing">Content Slides</a></p>
 
+Arudino Code:
+
+<script src="https://gist.github.com/Artemis854/d014e1692fe214818ddf91cc8b611bf4.js"></script>
+
 <p>Please RSVP on the <a target="_blank" href="https://www.facebook.com/events/469407753462164/">Facebook Event</a></p>
